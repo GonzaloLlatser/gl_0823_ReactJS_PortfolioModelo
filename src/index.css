@@ -26,7 +26,7 @@ code {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 0.3em solid rgba(255, 255, 255, 0.219);
+  border-bottom: 0.1em solid rgba(255, 255, 255, 0.219);
   background-color: #f5f5f518;
 }
 
@@ -84,10 +84,13 @@ code {
   /* letter-spacing: 0.1em; */
 }
 
-.header a:hover {
-  color: #8e39f0c9;
+.header a:hover,
+.header .active {
+  color: #cb64fae3;
   font-size: 1.6em;
 }
+
+
 /* Estilos del content */
 
 .content{
@@ -99,7 +102,7 @@ code {
 .footer {
   height: 3em;
   background-color: #f5f5f523;
-  border-top: 0.2em solid rgb(212, 200, 200);
+  border-top: 0.1em solid rgb(212, 200, 200);
   line-height: 3em;
   text-align: center;
   color: rgb(207, 212, 218);
