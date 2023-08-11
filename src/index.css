@@ -1,68 +1,108 @@
 /* Estilos generales */
 
 body {
-  background-image: url(../public/FondoContour\ Line.svg);
-  background-size: cover;
   margin: 0;
   padding: 0;
   height: 100vh;
   width: 100vw;
-  font-family: 'Indie Flower', cursive;}
+  background-image: url(../public/FondoContour\ Line.svg);
+  background-size: cover;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Cabin', sans-serif;
+  
 }
 
 .layout {
   margin: 0 auto;
 }
+
 /* Estilos Cabecera */
 
 .header {
-  height: 10em;
+  border-top: 0.3em solid rgba(255, 255, 255, 0.11);
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 0.3em solid rgba(255, 255, 255, 0.219);
+  background-color: #f5f5f518;
 }
+
 /* Estilos del logo  */
 
 .header .logo {
+  width: 10em;
+  height: 5em;
+  display: flex;
   background-size: 20em;
-  background-repeat: no-repeat;
-  background-color: blue;
-  width: 20em;
-  height: 10em;
 }
+
+.header .logo span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+  color: rgb(255, 255, 255);
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.header .logo span:hover{
+  color: rgba(143, 103, 207, 0.795);
+}
+
 /* Estilos menu de navegacion */
 
 .header nav {
-  width: 70em;
+  width: 50em;
   display: flex;
+  justify-content: end;
+  margin-left: 40em;
 }
 
 .header nav ul {
   display: flex;
   width: 70em;
-  justify-content: center;
-  justify-content: space-around;
+  justify-content: end;
+  margin-left: 2em;
   align-items: center;
   list-style: none;
 }
 
 .header li {
-  text-transform: uppercase;
+  margin-left: 2em;
 }
+
 .header li a {
   color: white;
   font-size: 1.6em;
   font-weight: bold;
   text-decoration: none;
-  transition: all 300ms;
-  letter-spacing: 0.1em;
+  transition: all 500ms;
+  /* letter-spacing: 0.1em; */
 }
 
 .header a:hover {
-  color: #91939b;
-  transform: scale(1.8);
+  color: #8e39f0c9;
   font-size: 1.6em;
+}
+/* Estilos del content */
+
+.content{
+  min-height: 48.5em ;
+}
+
+/* Estilos del footer */
+
+.footer {
+  height: 3em;
+  background-color: #f5f5f523;
+  border-top: 0.2em solid rgb(212, 200, 200);
+  line-height: 3em;
+  text-align: center;
+  color: rgb(207, 212, 218);
+  letter-spacing: 0.09em;
+  /* padding-top: 1.3em; */
 }
