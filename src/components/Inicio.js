@@ -8,7 +8,7 @@ export const Inicio = () => {
 
       <h2>
         Hola, soy <strong>Gonzalo Llatser</strong> y estoy en proceso de convertirme en<strong> Desarrollador Web. </strong>
-        Actulemente estoy cursando la FP de <strong>DAW</strong> en Valencia, España. 
+        Actualmente estoy cursando la FP de <strong>DAW</strong> en Valencia, España. 
       </h2>
 
       <h3>Te ayudo a crear tu sitio web, tener más visibilidad y relevancia en internet. <Link to='/contacto'>Contacta conmigo</Link></h3>

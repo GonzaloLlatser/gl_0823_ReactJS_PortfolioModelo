@@ -1,54 +1,54 @@
 export const trabajos =[
     {
-        'id':'AppdePeliculas',
-        'nombre': 'WEB1',
+        'id':'AppDePeliculas',
+        'nombre':'Aplicación de Peliculas',
         'url':'google.com',
-        'tecnologias': 'HTML, CSS, JS, PHP, MySQL',
+        'tecnologias': 'HTML, CSS, JS, REACT',
         'categorias': 'Desarrollo Web',
         'descripcion':'Te cuento del proyecto'
     },
     
     {
-        'id':'prueba2',
-        'nombre': 'WEB2',
+        'id':'AppCalculadora',
+        'nombre': 'Calculadora Interactiva',
         'url':'google.com',
-        'tecnologias': 'HTML, CSS, JS, PHP, MySQL',
+        'tecnologias': 'HTML, CSS, JS, REACT',
         'categorias': 'Desarrollo Web',
         'descripcion':'Te cuento del proyecto'
     },
 
     {
-        'id':'prueba3',
-        'nombre': 'WEB3',
+        'id':'AppDeTareas',
+        'nombre': 'Aplicación de Tareas',
         'url':'google.com',
-        'tecnologias': 'HTML, CSS, JS, PHP, MySQL',
+        'tecnologias': 'HTML, CSS, JS, REACT',
         'categorias': 'Desarrollo Web',
         'descripcion':'Te cuento del proyecto'
     },
 
     {
-        'id':'prueba4',
-        'nombre': 'WEB4',
+        'id':'AppContador',
+        'nombre': 'Contador de clicks',
         'url':'google.com',
-        'tecnologias': 'HTML, CSS, JS, PHP, MySQL',
+        'tecnologias': 'HTML, CSS, JS, REACT',
         'categorias': 'Desarrollo Web',
         'descripcion':'Te cuento del proyecto'
     },
 
     {
-        'id':'prueba5',
-        'nombre': 'WEB5',
+        'id':'ClonPaginaWeb',
+        'nombre': 'Clon de Página Web',
         'url':'google.com',
-        'tecnologias': 'HTML, CSS, JS, PHP, MySQL',
+        'tecnologias': 'HTML, CSS, JS, REACT',
         'categorias': 'Desarrollo Web',
         'descripcion':'Te cuento del proyecto'
     },
 
     {
-        'id':'prueba6',
-        'nombre': 'WEB6',
+        'id':'Game',
+        'nombre': 'Rock Paper Scissors',
         'url':'google.com',
-        'tecnologias': 'HTML, CSS, JS, PHP, MySQL',
+        'tecnologias': 'HTML, CSS, JS, REACT',
         'categorias': 'Desarrollo Web',
         'descripcion':'Te cuento del proyecto'
     }
