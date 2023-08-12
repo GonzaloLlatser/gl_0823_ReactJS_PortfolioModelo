@@ -5,9 +5,21 @@ export const Curriculum = () => {
     <div className='page'>
       <h1 className='heading'>Curriculum</h1>
 
+      <div className='info-pagina-en-desarrollo'>
+        <div class="wrapper">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="shadow"></div>
+          <div class="shadow"></div>
+          <div class="shadow"></div>
+        </div>
+        <h1>Página en Desarrollo</h1>
+      </div>
+
       <h2>Experiencia</h2>
       <h2>Conocimientos</h2>
-      <h2>Educacion</h2>
+      <h2>Educación</h2>
       <h2>Proyectos personales</h2>
       <h2>Reconocimientos y premios</h2>
       <h2>Otros</h2>
